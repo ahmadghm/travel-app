@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Zen+Tokyo+Zoo&display=swap');
+#data{
+  border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 100%;
+  width: 100%;
+  margin: 1.5em 0 1.5em 0;
+}
+
+
+#subject{
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 1.6em;
+  font-weight: lighter;
+  color: #1A508B;
+}
+#desti{
+    font-size: 1.2rem;
+    font-family: 'Poppins',-apple-system, sans-serif;
+}
+
+#temp{
+    font-size: 1.2rem;
+    font-family: 'Poppins',-apple-system, sans-serif;
+}
+#imgwh{
+border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
+}
+
+.adjust{
+    max-width: 100%;
+    width: 100%;
+    height: auto !important;
+    padding-bottom: 5px;
+}
+
+.iconsize{
+  height: 60px;
+  width: 60px;
+}
+
+@media (max-width:767px) {
+    .adjust {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .adjust {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media (min-width:992px) {
+    .adjust {
+        max-width: 314px;
+        max-height: 314px;
+    }
+}
+
+@media (min-width:1200px) {
+    .adjust{
+        max-width: 380px;
+        max-height: 380px;
+    }
+}

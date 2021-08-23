@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <title>Travello App</title>
+        <link rel="shortcut icon" href="#">
+    </head>
+    <body>
+      <main class="main">
+      <div class="container">
+        <div class="row aroundspace">
+          <nav class="navbar navbar-expand-lg navbar-light oppacity">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">TRAVELLO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Me</a></li>
+                      <li><a class="dropdown-item" href="#">My Github</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Others</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        </div>
+            <div><h1 class="aroundspace">🛫TRAVELLO APP🛬</h1>
+                 <p>description about this project</p>
+            </div>
+        <div class="row formupdown">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-3 around">
+            <input type="text" id="city" name="city" placeholder="Destination">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-7 around">
+            <strong><u>IN↝</u></strong><input type="date" id="date_in" name="in">
+            &nbsp;&nbsp;
+            <strong><u>OUT</u></strong><input type="date" id="date_out" name="out">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-2 around">
+           <center><button id="generate" style="display: block" type="submit"><spam class="btngo">GO !</spam></button></center>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+      <div id="data" class="row">
+        <div id="subject"></div>
+        <div id="desti"></div>
+        <div id="temp"></div>
+        <div id="forecast"></div>
+        <div id="pixa"></div>
+      </div>
+    </div>
+    </div>
+      <footer class="container">
+        <center><button id="btnvisible" style="display: none" onClick="window.location.href=window.location.href"><spam class="btngo">New search</spam></button></center><br /><br />
+        <p class="foot">Designed By Ahmad GH ღ</p>
+      </footer>
+    </main>
+
+    <script>
+     // Check that service workers are supported
+     if ('serviceWorker' in navigator) {
+         // Use the window load event to keep the page load performant
+         window.addEventListener('load', () => {
+             navigator.serviceWorker.register('/service-worker.js');
+         });
+     }
+    </script>
+
+    </body>
+</html>

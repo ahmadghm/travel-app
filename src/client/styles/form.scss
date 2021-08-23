@@ -1,0 +1,54 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Zen+Tokyo+Zoo&display=swap');
+
+.around{
+ padding: 10px;
+}
+.formupdown{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#city{
+  font-family: 'Poppins',-apple-system, sans-serif;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.0);
+  width: 70%;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-decoration-style: wavy;
+  color: #a221a2;
+  border: none;
+  border-radius: 1px;
+  border-bottom: 1px solid #ffffff;
+}
+
+input[type=text] {
+  font-family: 'Poppins',-apple-system, sans-serif;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.0);
+  width: 70%;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-decoration-style: wavy;
+  color: #a221a2;
+  border: none;
+  border-radius: 1px;
+  border-bottom: 1px solid #ffffff;
+}
+
+input[type=DAte] {
+  font-family: 'Poppins',-apple-system, sans-serif;
+  background-color: rgba(255, 255, 255, 0.0);
+  font-size: 0.9em;
+  font-weight: 400;
+  text-decoration-style: wavy;
+  color: #ffffff;
+  border: none;
+  border-radius: 1px;
+  border-bottom: 1px solid #ffffff;
+}
+input[type=submit] {
+  font-family: 'Poppins',-apple-system, sans-serif;
+  background-color: rgba(255, 255, 255, 0.0);
+  border: none;
+}

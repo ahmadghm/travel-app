@@ -1,0 +1,42 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Zen+Tokyo+Zoo&display=swap');
+html, body{
+  height: 100%;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins',-apple-system, sans-serif;
+}
+
+.main {
+  height: 130vh;
+  background-image: linear-gradient(to bottom, rgba(236, 0, 255, 0.25), rgba(40, 9, 40, 0.12)), url(https://images.unsplash.com/photo-1549497299-c6662b3541a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1472&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  text-align: center;
+}
+
+.oppacity {
+  opacity: 0.9;
+}
+
+.aroundspace{
+  padding: 1%;
+}
+h1{
+  font-family: 'Zen Tokyo Zoo', cursive;
+}
+.foot{
+  color: #fff;
+}
+
+@media (max-width:800px) {
+    .main {
+      height: 150vh;
+
+    }
+}
